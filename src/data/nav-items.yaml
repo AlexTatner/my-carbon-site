@@ -1,15 +1,19 @@
-- title: Getting started
+- title: Introduction
   pages:
-    - path: /getting-started
-- title: Demo
+    - path: /introduction
+- title: Framework
   pages:
-    - path: /demo
-- title: Gallery
+    - path: /framework
+- title: Foundations
   pages:
-    - path: /gallery
-- title: Contributions
+    - path: /foundations
+- title: Experience principles
   pages:
-    - path: /contributions
+    - path: /experience-principles
+- title: Elements
+  pages:
+    - title: Colour
+      path: /elements/colour
 - title: Guides
   pages:
     - title: Configuration
@@ -52,3 +56,15 @@
       path: /components/Tabs
     - title: Video
       path: /components/Video
+- title: Getting started
+  pages:
+    - path: /getting-started
+- title: Demo
+  pages:
+    - path: /demo
+- title: Gallery
+  pages:
+    - path: /gallery
+- title: Contributions
+  pages:
+    - path: /contributions

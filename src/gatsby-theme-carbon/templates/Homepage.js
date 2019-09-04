@@ -9,9 +9,7 @@ const FirstLeftText = () => <p>Callout component</p>;
 
 const FirstRightText = () => (
   <p>
-    This is a callout component. You can edit the contents by updating the
-    pre-shadowed homepage template. You can provide <code>color</code> and{' '}
-    <code>backgroundColor</code> props to suit your theme.
+    I edited the text. YAY!
     <a
       className={calloutLink}
       href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/gatsby-theme-carbon/templates/Homepage.js"
@@ -21,22 +19,16 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+const SecondLeftText = () => <p>We need some content here. What happens if it's really long?</p>;
 
 const SecondRightText = () => (
   <p>
     You can also not use these components at all by not providing the callout
     props to the template or writing your own template.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/gatsby-theme-carbon/templates/Homepage.js"
-    >
-      Homepage source →
-    </a>
   </p>
 );
 
-const BannerText = () => <h1>Banner component</h1>;
+const BannerText = () => <h1>TfL Design Language</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,

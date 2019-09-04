@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/reponame",
   siteMetadata: {
     title: 'Gatsby Theme Carbon',
     description: 'A Gatsby theme for the carbon design system',
